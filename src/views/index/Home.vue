@@ -112,9 +112,8 @@
                 <div class="col-38">
 
                     <div class="section-heading">
-                        <h1>A FREE AND SIMPLE LANDING PAGE</h1>
-                        <h2>Namari is a free landing page template you can use for your projects. It is free to use for your
-                            personal and commercial projects, enjoy!</h2>
+                        <h1 style="text-transform: uppercase;">Uma ferramenta de entrada para seus clientes</h1>
+                        <h2>O primeiro contato com seu cliente deve ser atrativo</h2>
                     </div>
 
                     <!--Call to Action-->
