@@ -31,7 +31,7 @@
                             <!--End of Banner Logo-->
 
                             <!--The Logo that is shown on the sticky Navigation Bar-->
-                            <img src="../../assets/images/logo-2.png" id="navigation-logo" alt="Landing Page"/>
+                            <img src="../../assets/images/logo_h.png" id="navigation-logo" alt="Landing Page" style="max-height: 50px; margin-top: 10px;"/>
                             <!--End of Navigation Logo-->
 
                         </div>
