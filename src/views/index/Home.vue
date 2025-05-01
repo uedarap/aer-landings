@@ -117,7 +117,7 @@
                     </div>
 
                     <!--Call to Action-->
-                    <a href="#" class="button">START CREATING TODAY</a>
+                    <a href="#" class="button" style="text-transform: uppercase;">☕️ Vamos tomar um café?</a>
                     <!--End Call to Action-->
 
                 </div>
@@ -135,10 +135,9 @@
 
                     <div class="col-3">
                         <div class="section-heading">
-                            <h3>SUCCESS</h3>
-                            <h2 class="section-title">How We Help You To Sell Your Product</h2>
-                            <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
+                            <h3>SERVIÇOS</h3>
+                            <h2 class="section-title">O que podemos fazer por voce?</h2>
+                            <p class="section-subtitle">Estamos aqui para transformar suas ideias em realidade. Seja criando um site incrível, otimizando sua presença online ou cuidando de todos os detalhes técnicos, nosso objetivo é oferecer soluções sob medida para o sucesso do seu negócio.</p>
                         </div>
 
                     </div>
@@ -153,9 +152,8 @@
                             </div>
                             <!--Icon Block Description-->
                             <div class="icon-block-description">
-                                <h4>HTML5 &amp; CSS3</h4>
-                                <p>Has ne tritani atomorum conclusionemque, in dolorum volumus cotidieque eum. At vis choro
-                                    neglegentur iudico</p>
+                                <h4>UI & UX</h4>
+                                <p>(<b>U</b>ser <b>I</b>nterface &amp; <b>U</b>ser E<b>x</b>perience)<br/> Otimização e criação de paginas para web garantindo a melhor experiência para seu cliente.</p>
                             </div>
                         </div>
                         <!--End of Icon Block-->
@@ -168,9 +166,8 @@
                             </div>
                             <!--Icon Block Description-->
                             <div class="icon-block-description">
-                                <h4>Easy to Use</h4>
-                                <p>Cu vero ipsum vim, doctus facilisi sea in. Eam ex falli honestatis repudiandae, sit
-                                    detracto mediocrem disputationi</p>
+                                <h4>Hospedagem de sites</h4>
+                                <p>Você não precisa se preocupar se seu site está for do ar.<br/> Também oferecemos serviços de hospedagem para nossos clientes.</p>
                             </div>
                         </div>
                         <!--End of Icon Block-->
@@ -183,26 +180,23 @@
                             </div>
                             <!--Icon Block Description-->
                             <div class="icon-block-description">
-                                <h4>Fully Responsive</h4>
-                                <p>Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro
-                                    nemore vivendum</p>
+                                <h4>Posicionamento no Maps</h4>
+                                <p>Mantenha as informações da sua empresa atualizadas no Google Maps e facilite para seus clientes encontrarem você com rapidez e precisão.</p>
                             </div>
                         </div>
                         <!--End of Icon Block-->
 
                         <!--Icon Block-->
-                        <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
-                            <!--Icon-->
+                        <!-- <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
                             <div class="icon">
                                 <i class="fa fa-rocket fa-2x"></i>
                             </div>
-                            <!--Icon Block Description-->
                             <div class="icon-block-description">
                                 <h4>Parallax Effect</h4>
                                 <p>Id porro tritani recusabo usu, eum intellegam consequuntur et. Fugit debet ea sit, an pro
                                     nemore vivendum</p>
                             </div>
-                        </div>
+                        </div> -->
                         <!--End of Icon Block-->
 
                     </div>
@@ -525,6 +519,9 @@
 
 
 <style lang="scss">
-    @use '../../style.scss'
+    @use '../../style.scss';
     
+    #wrapper {
+        background-color: rgba($color: style.$white, $alpha: .5);
+    }
 </style>
