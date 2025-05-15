@@ -211,17 +211,17 @@
             <aside id="gallery" class="row text-center scrollto clearfix" data-featherlight-gallery
                     data-featherlight-filter="a">
 
-                    <a href="../../assets/images/portifolio/1.png" data-featherlight="image" class="col-3 wow fadeIn"
+                    <a href="../../assets/images/portifolio/1.png" data-featherlight="image" class="col-3 wow fadeIn off" onclick="return false;"
                     data-wow-delay="0.1s"><img src="../../assets/images/portifolio/1.png" alt="Landing Page"/></a>
                     <a href="../../assets/images/portifolio/2.png" data-featherlight="image" class="col-3 wow fadeIn"
                     data-wow-delay="0.3s"><img src="../../assets/images/portifolio/2.png" alt="Landing Page"/></a>
-                    <a href="../../assets/images/portifolio/3.png" data-featherlight="image" class="col-3 wow fadeIn"
+                    <a href="../../assets/images/portifolio/3.png" data-featherlight="image" class="col-3 wow fadeIn off" onclick="return false;"
                     data-wow-delay="0.5s"><img src="../../assets/images/portifolio/3.png" alt="Landing Page"/></a>
                     <a href="../../assets/images/portifolio/4.png" data-featherlight="image" class="col-3 wow fadeIn"
                     data-wow-delay="1.1s"><img src="../../assets/images/portifolio/4.png" alt="Landing Page"/></a>
                     <a href="../../assets/images/portifolio/5.png" data-featherlight="image" class="col-3 wow fadeIn"
                     data-wow-delay="0.9s"><img src="../../assets/images/portifolio/5.png" alt="Landing Page"/></a>
-                    <a href="../../assets/images/portifolio/6.png" data-featherlight="image" class="col-3 wow fadeIn"
+                    <a href="../../assets/images/portifolio/6.png" data-featherlight="image" class="col-3 wow fadeIn off" onclick="return false;"
                     data-wow-delay="0.7s"><img src="../../assets/images/portifolio/6.png" alt="Landing Page"/></a>
 
             </aside>
