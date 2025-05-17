@@ -53,8 +53,8 @@ p {
     line-height: 25px;
 }
 
-.row img {
-    height: 500px;
+#gallery.row img {
+    height: 400px;
     /* max-width: 100%; */
 }
 
@@ -999,9 +999,9 @@ blockquote {
 
 #gallery a.off img {
     cursor: default;
-    -webkit-transition: all 2s linear;
-    -moz-transition: all 2s linear;
-    transition: all 2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    transition: all .2s linear;
 }
 #gallery a.off:hover img {
     filter: blur(3px) grayscale(100%) sepia(10%);

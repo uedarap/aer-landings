@@ -11,7 +11,8 @@
 
     <div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
         <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
-        <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
+        <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
+        </div>
         <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
         <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
     </div>
@@ -27,11 +28,12 @@
                         <div id="logo">
 
                             <!--Logo that is shown on the banner-->
-                            <img src="../../assets/images/logo.png" id="banner-logo" alt="Landing Page"/>
+                            <img src="../../assets/images/logo.png" id="banner-logo" alt="Landing Page" />
                             <!--End of Banner Logo-->
 
                             <!--The Logo that is shown on the sticky Navigation Bar-->
-                            <img src="../../assets/images/logo_h.png" id="navigation-logo" alt="Landing Page" style="max-height: 50px; margin-top: 10px;"/>
+                            <img src="../../assets/images/logo_h.png" id="navigation-logo" alt="Landing Page"
+                                style="max-height: 50px; margin-top: 10px;" />
                             <!--End of Navigation Logo-->
 
                         </div>
@@ -137,7 +139,10 @@
                         <div class="section-heading">
                             <h3>SERVIÇOS</h3>
                             <h2 class="section-title">O que podemos fazer por voce?</h2>
-                            <p class="section-subtitle">Estamos aqui para transformar <b>suas ideias</b> em realidade. Seja criando <b>um site</b> incrível, otimizando sua presença online ou cuidando de todos os detalhes técnicos, nosso objetivo é oferecer soluções sob medida para o sucesso do seu negócio.</p>
+                            <p class="section-subtitle">Estamos aqui para transformar <b>suas ideias</b> em realidade.
+                                Seja criando <b>um site</b> incrível, otimizando sua presença online ou cuidando de
+                                todos os detalhes técnicos, nosso objetivo é oferecer soluções sob medida para o sucesso
+                                do seu negócio.</p>
                         </div>
 
                     </div>
@@ -153,7 +158,8 @@
                             <!--Icon Block Description-->
                             <div class="icon-block-description">
                                 <h4>UI & UX</h4>
-                                <p>(<b>U</b>ser <b>I</b>nterface &amp; <b>U</b>ser E<b>x</b>perience)<br/> Otimização e criação de paginas para web garantindo a melhor experiência para seu cliente.</p>
+                                <p>(<b>U</b>ser <b>I</b>nterface &amp; <b>U</b>ser E<b>x</b>perience)<br /> Otimização e
+                                    criação de paginas para web garantindo a melhor experiência para seu cliente.</p>
                             </div>
                         </div>
                         <!--End of Icon Block-->
@@ -167,7 +173,8 @@
                             <!--Icon Block Description-->
                             <div class="icon-block-description">
                                 <h4>Hospedagem de sites</h4>
-                                <p>Você não precisa se preocupar se seu site está for do ar.<br/> Também oferecemos serviços de hospedagem para nossos clientes.</p>
+                                <p>Você não precisa se preocupar se seu site está for do ar.<br /> Também oferecemos
+                                    serviços de hospedagem para nossos clientes.</p>
                             </div>
                         </div>
                         <!--End of Icon Block-->
@@ -181,7 +188,8 @@
                             <!--Icon Block Description-->
                             <div class="icon-block-description">
                                 <h4>Posicionamento no Maps</h4>
-                                <p>Mantenha as informações da sua empresa atualizadas no Google Maps e facilite para seus clientes encontrarem você com rapidez e precisão.</p>
+                                <p>Mantenha as informações da sua empresa atualizadas no Google Maps e facilite para
+                                    seus clientes encontrarem você com rapidez e precisão.</p>
                             </div>
                         </div>
                         <!--End of Icon Block-->
@@ -193,7 +201,8 @@
                             </div> -->
                             <div class="icon-block-description">
                                 <h4>O Trio perfeito</h4>
-                                <p>Com isso, conseguimos deixar seu negócio prontos pra receber os clientes conectados.</p>
+                                <p>Com isso, conseguimos deixar seu negócio prontos pra receber os clientes conectados.
+                                </p>
                             </div>
                         </div>
                         <!--End of Icon Block-->
@@ -209,20 +218,23 @@
 
             <!--Gallery-->
             <aside id="gallery" class="row text-center scrollto clearfix" data-featherlight-gallery
-                    data-featherlight-filter="a">
+                data-featherlight-filter="a" style="padding: 0;">
 
-                    <a href="../../assets/images/portifolio/1.png" data-featherlight="image" class="col-3 wow fadeIn off" onclick="return false;"
-                    data-wow-delay="0.1s"><img src="../../assets/images/portifolio/1.png" alt="Landing Page"/></a>
-                    <a href="../../assets/images/portifolio/2.png" data-featherlight="image" class="col-3 wow fadeIn"
-                    data-wow-delay="0.3s"><img src="../../assets/images/portifolio/2.png" alt="Landing Page"/></a>
-                    <a href="../../assets/images/portifolio/3.png" data-featherlight="image" class="col-3 wow fadeIn off" onclick="return false;"
-                    data-wow-delay="0.5s"><img src="../../assets/images/portifolio/3.png" alt="Landing Page"/></a>
-                    <a href="../../assets/images/portifolio/4.png" data-featherlight="image" class="col-3 wow fadeIn"
-                    data-wow-delay="1.1s"><img src="../../assets/images/portifolio/4.png" alt="Landing Page"/></a>
-                    <a href="../../assets/images/portifolio/5.png" data-featherlight="image" class="col-3 wow fadeIn"
-                    data-wow-delay="0.9s"><img src="../../assets/images/portifolio/5.png" alt="Landing Page"/></a>
-                    <a href="../../assets/images/portifolio/6.png" data-featherlight="image" class="col-3 wow fadeIn off" onclick="return false;"
-                    data-wow-delay="0.7s"><img src="../../assets/images/portifolio/6.png" alt="Landing Page"/></a>
+                <a href="../../assets/images/portifolio/1.png" data-featherlight="image" class="col-3 wow fadeIn off"
+                    onclick="return false;" data-wow-delay="0.1s"><img src="../../assets/images/portifolio/1.png"
+                        alt="Landing Page" /></a>
+                <a href="../../assets/images/portifolio/2.png" data-featherlight="image" class="col-3 wow fadeIn"
+                    data-wow-delay="0.3s"><img src="../../assets/images/portifolio/2.png" alt="Landing Page" /></a>
+                <a href="../../assets/images/portifolio/3.png" data-featherlight="image" class="col-3 wow fadeIn off"
+                    onclick="return false;" data-wow-delay="0.5s"><img src="../../assets/images/portifolio/3.png"
+                        alt="Landing Page" /></a>
+                <a href="../../assets/images/portifolio/4.png" data-featherlight="image" class="col-3 wow fadeIn"
+                    data-wow-delay="1.1s"><img src="../../assets/images/portifolio/4.png" alt="Landing Page" /></a>
+                <a href="../../assets/images/portifolio/5.png" data-featherlight="image" class="col-3 wow fadeIn"
+                    data-wow-delay="0.9s"><img src="../../assets/images/portifolio/5.png" alt="Landing Page" /></a>
+                <a href="../../assets/images/portifolio/6.png" data-featherlight="image" class="col-3 wow fadeIn off"
+                    onclick="return false;" data-wow-delay="0.7s"><img src="../../assets/images/portifolio/6.png"
+                        alt="Landing Page" /></a>
 
             </aside>
             <!--End of Gallery-->
@@ -237,11 +249,9 @@
                     <!--Content Left Side-->
                     <div class="col-3">
                         <!--User Testimonial-->
-                        <blockquote class="testimonial text-right bigtest">
-                            <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore
-                                et dolore magna aliqua</q>
-                            <footer>— John Doe, Happy Customer</footer>
+                        <blockquote id="randomQuote" class="testimonial text-right bigtest">
+                            <q></q>
+                            <footer></footer>
                         </blockquote>
                         <!-- End of Testimonial-->
 
@@ -251,29 +261,37 @@
                     <!--Content of the Right Side-->
                     <div class="col-3">
                         <div class="section-heading">
-                            <h3>BELIEVING</h3>
-                            <h2 class="section-title">Focusing On What Matters Most</h2>
-                            <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
+                            <h3>Feito de humanos para humanos</h3>
+                            <h2 class="section-title">Porque fazer com a A&R?</h2>
                         </div>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                            dicta sunt explicabo.
-                        </p>
-                        <p>
-                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet!
-                        </p>
+                        <p>Precisamos admitir que o novo mundo das IAs é fascinante e intrigante ao mesmo tempo. Com a
+                            quantidade de ferramentas disponíveis hoje, realmente é possível você mesmo botar a mão na
+                            massa e colocar o seu site no ar.</p>
+                        <p class="section-subtitle">"Mas você reformaria a entrada do seu negócio sozinho OU chamaria
+                            profissionais apaixonados pelo que fazem para criar algo incrível para você?”</p>
+                        <p>A não ser que você seja marceneiro... no caso, um DEV 😂</p>
+                        <p>Não digo que não vá ficar bom, mas sabemos que um trabalho feito com dedicação, experiência e
+                            atenção aos detalhes sempre faz toda a diferença. É como comparar um móvel planejado sob
+                            medida com um improvisado no final de semana. Ambos cumprem a função, mas o impacto de um
+                            trabalho profissional vai muito além do básico.</p>
+                        <p>Então, que tal deixar o seu site nas mãos de quem entende e se dedica a isso? 😉</p>
                         <!-- Just replace the Video ID "UYJ5IjBRlW8" with the ID of your video on YouTube (Found within the URL) -->
-                        <a href="#" data-videoid="UYJ5IjBRlW8" data-videosite="youtube" class="button video link-lightbox">
-                            WATCH VIDEO <i class="fa fa-play" aria-hidden="true"></i>
-                        </a>
                     </div>
                     <!--End Content Right Side-->
 
-                    <div class="col-3">
-                        <img src="../../assets/images/dancer.jpg" alt="Dancer"/>
+                    <div class="col-sm-3 col-3">
+                        <img id="mona-lisa" src="../../assets/images/mona_lisa.jpg" alt="Dancer" />
+                        <div style="display: flex; justify-content: space-between;">
+                            <a href="https://wa.me/+5513991904076" data-videoid="UYJ5IjBRlW8" data-videosite="youtube"
+                                class="button video link-lightbox">
+                                Falar Conosco
+                                <!-- <i class="fa fa-play" aria-hidden="true"></i> -->
+                            </a>
+                            <!-- <a href="https://pt.wix.com/" data-videoid="UYJ5IjBRlW8" data-videosite="youtube" class="button video link-lightbox">
+                                WIX 
+                                <i class="fa fa-play" aria-hidden="true"></i>
+                            </a> -->
+                        </div>
                     </div>
 
                 </div>
@@ -288,13 +306,13 @@
                 <div class="row clearfix">
 
                     <div class="section-heading">
-                        <h3>FEEDBACK</h3>
+                        <h3>CONTATO</h3>
                         <h2 class="section-title">What our customers are saying</h2>
                     </div>
 
                     <!--User Testimonial-->
                     <blockquote class="col-3 testimonial classic">
-                        <img src="../../assets/images/user-images/user-1.jpg" alt="User"/>
+                        <img src="../../assets/images/user-images/user-1.jpg" alt="User" />
                         <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore
                             et dolore magna aliqua</q>
@@ -304,7 +322,7 @@
 
                     <!--User Testimonial-->
                     <blockquote class="col-3 testimonial classic">
-                        <img src="../../assets/images/user-images/user-2.jpg" alt="User"/>
+                        <img src="../../assets/images/user-images/user-2.jpg" alt="User" />
                         <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore
                             et dolore magna aliqua</q>
@@ -314,7 +332,7 @@
 
                     <!--User Testimonial-->
                     <blockquote class="col-3 testimonial classic">
-                        <img src="../../assets/images/user-images/user-3.jpg" alt="User"/>
+                        <img src="../../assets/images/user-images/user-3.jpg" alt="User" />
                         <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore
                             et dolore magna aliqua</q>
@@ -327,144 +345,6 @@
             </aside>
             <!--End of Testimonials-->
 
-            <!--Clients-->
-            <section id="clients" class="scrollto clearfix">
-                <div class="row clearfix">
-
-                    <div class="col-3">
-
-                        <div class="section-heading">
-                            <h3>TRUST</h3>
-                            <h2 class="section-title">Companies who use our services</h2>
-                            <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!</p>
-                        </div>
-
-                    </div>
-
-                    <div class="col-2-3">
-
-                        <a href="#" class="col-3">
-                            <img src="../../assets/images/company-images/company-logo1.png" alt="Company"/>
-                            <div class="client-overlay"><span>Tree</span></div>
-                        </a>
-                        <a href="#" class="col-3">
-                            <img src="../../assets/images/company-images/company-logo2.png" alt="Company"/>
-                            <div class="client-overlay"><span>Fingerprint</span></div>
-                        </a>
-                        <a href="#" class="col-3">
-                            <img src="../../assets/images/company-images/company-logo3.png" alt="Company"/>
-                            <div class="client-overlay"><span>The Man</span></div>
-                        </a>
-                        <a href="#" class="col-3">
-                            <img src="../../assets/images/company-images/company-logo4.png" alt="Company"/>
-                            <div class="client-overlay"><span>Mustache</span></div>
-                        </a>
-                        <a href="#" class="col-3">
-                            <img src="../../assets/images/company-images/company-logo5.png" alt="Company"/>
-                            <div class="client-overlay"><span>Goat</span></div>
-                        </a>
-                        <a href="#" class="col-3">
-                            <img src="../../assets/images/company-images/company-logo6.png" alt="Company"/>
-                            <div class="client-overlay"><span>Justice</span></div>
-                        </a>
-                        <a href="#" class="col-3">
-                            <img src="../../assets/images/company-images/company-logo7.png" alt="Company"/>
-                            <div class="client-overlay"><span>Ball</span></div>
-                        </a>
-                        <a href="#" class="col-3">
-                            <img src="../../assets/images/company-images/company-logo8.png" alt="Company"/>
-                            <div class="client-overlay"><span>Cold</span></div>
-                        </a>
-
-                        <a href="#" class="col-3">
-                            <img src="../../assets/images/company-images/company-logo9.png" alt="Company"/>
-                            <div class="client-overlay"><span>Cold</span></div>
-                        </a>
-
-                    </div>
-
-                </div>
-            </section>
-            <!--End of Clients-->
-
-            <!--Pricing Tables-->
-            <section id="pricing" class="secondary-color text-center scrollto clearfix ">
-                <div class="row clearfix">
-
-                    <div class="section-heading">
-                        <h3>YOUR CHOICE</h3>
-                        <h2 class="section-title">We have the right package for you</h2>
-                    </div>
-
-                    <!--Pricing Block-->
-                    <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="pricing-block-content">
-                            <h3>Personal</h3>
-                            <p class="pricing-sub">The standard version</p>
-                            <div class="pricing">
-                                <div class="price"><span>$</span>19</div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                            </div>
-                            <ul>
-                                <li>5 Downloads</li>
-                                <li>2 Extensions</li>
-                                <li>Tutorials</li>
-                                <li>Forum Support</li>
-                                <li>1 year free updates</li>
-                            </ul>
-                            <a href="#" class="button">BUY TODAY</a>
-                        </div>
-                    </div>
-                    <!--End Pricing Block-->
-
-                    <!--Pricing Block-->
-                    <div class="pricing-block featured col-3 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="pricing-block-content">
-                            <h3>Student</h3>
-                            <p class="pricing-sub">Most popular choice</p>
-                            <div class="pricing">
-                                <div class="price"><span>$</span>29</div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                            </div>
-                            <ul>
-                                <li>15 Downloads</li>
-                                <li>5 Extensions</li>
-                                <li>Tutorials with Files</li>
-                                <li>Forum Support</li>
-                                <li>2 years free updates</li>
-                            </ul>
-                            <a href="#" class="button">BUY TODAY</a>
-                        </div>
-                    </div>
-                    <!--End Pricing Block-->
-
-                    <!--Pricing Block-->
-                    <div class="pricing-block col-3 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="pricing-block-content">
-                            <h3>Business</h3>
-                            <p class="pricing-sub">For the whole team</p>
-                            <div class="pricing">
-                                <div class="price"><span>$</span>49</div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                            </div>
-                            <ul>
-                                <li>Unlimited Downloads</li>
-                                <li>Unlimited Extensions</li>
-                                <li>HD Video Tutorials</li>
-                                <li>Chat Support</li>
-                                <li>Lifetime free updates</li>
-                            </ul>
-                            <a href="#" class="button">BUY TODAY</a>
-                        </div>
-                    </div>
-                    <!--End Pricing Block-->
-
-                </div>
-            </section>
-            <!--End of Pricing Tables-->
-
         </main>
         <!--End Main Content Area-->
 
@@ -473,7 +353,8 @@
         <footer id="landing-footer" class="clearfix">
             <div class="row clearfix">
 
-                <p id="copyright" class="col-2">Made with love by <a href="https://www.shapingrain.com">ShapingRain</a></p>
+                <p id="copyright" class="col-2">Made with love by <a href="https://www.shapingrain.com">ShapingRain</a>
+                </p>
 
                 <!--Social Icons in Footer-->
                 <ul class="col-2 social-icons">
@@ -514,13 +395,52 @@
 
 <script setup>
 
+import { onMounted } from 'vue';
+import data from './data.json';
+
+onMounted(async () => {
+    try {
+        // Obter o array de citações
+        const quotes = data.data;
+
+        // Selecionar uma frase aleatória
+        const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+
+        // Inserir a frase no bloco de citação
+        const quoteElement = document.getElementById("randomQuote");
+        quoteElement.querySelector("q").textContent = randomQuote.quote;
+        quoteElement.querySelector("footer").textContent = `— ${randomQuote.category}`;
+    } catch (error) {
+        console.error("Erro ao carregar os dados do JSON:", error);
+    }
+});
+
 </script>
 
 
 <style lang="scss">
-    @use '../../style.scss';
-    
-    #wrapper {
-        background-color: rgba($color: style.$white, $alpha: .5);
+@use '../../style.scss';
+
+#wrapper {
+    background-color: rgba($color: style.$white, $alpha: .5);
+}
+
+#services {
+
+    #mona-lisa {
+        width: 100%;
+        // opacity: 80%;
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
+        mask-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     }
+
+    @media screen and (max-width: 768px) {
+        #mona-lisa {
+            width: 100%;
+            height: auto;
+            mask-image: none;
+        }
+
+    }
+}
 </style>
