@@ -43,7 +43,7 @@
 
                             <!--Social Icons in Header-->
                             <ul class="social-icons">
-                                <li>
+                                <!-- <li>
                                     <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
                                         <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
                                     </a>
@@ -67,6 +67,16 @@
                                     <a target="_blank" title="behance" href="http://www.behance.net">
                                         <i class="fa fa-behance fa-1x"></i><span>Behance</span>
                                     </a>
+                                </li> -->
+                                <li>
+                                    <a target="_blank" title="whats-app" href="http://www.behance.net">
+                                        <i class="fa fa-whatsapp fa-1x"></i><span>WhatsApp</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" title="email" href="http://www.behance.net">
+                                        <i class="fa fa-envelope fa-1x"></i><span>Email</span>
+                                    </a>
                                 </li>
                             </ul>
                             <!--End of Social Icons in Header-->
@@ -80,23 +90,23 @@
                                     <a href="#banner">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#about">About</a>
+                                    <a href="#services">Serviços</a>
                                 </li>
                                 <li>
-                                    <a href="#gallery">Gallery</a>
+                                    <a href="#gallery">Portifolio</a>
                                 </li>
                                 <li>
-                                    <a href="#services">Services</a>
+                                    <a href="#us">Nós</a>
                                 </li>
                                 <li>
-                                    <a href="#testimonials">Testimonials</a>
+                                    <a href="#feedback">Feedbacks</a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="#clients">Clients</a>
                                 </li>
                                 <li>
                                     <a href="#pricing">Pricing</a>
-                                </li>
+                                </li> -->
                             </ul>
                         </nav>
                         <!--End of Main Navigation-->
@@ -131,7 +141,7 @@
         <main id="content">
 
             <!--Introduction-->
-            <section id="about" class="introduction scrollto">
+            <section id="services" class="introduction scrollto">
 
                 <div class="row clearfix">
 
@@ -220,19 +230,19 @@
             <aside id="gallery" class="row text-center scrollto clearfix" data-featherlight-gallery
                 data-featherlight-filter="a" style="padding: 0;">
 
-                <a href="../../assets/images/portifolio/1.png" data-featherlight="image" class="col-3 wow fadeIn off"
-                    onclick="return false;" data-wow-delay="0.1s"><img src="../../assets/images/portifolio/1.png"
-                        alt="Landing Page" /></a>
-                <a href="../../assets/images/portifolio/2.png" data-featherlight="image" class="col-3 wow fadeIn"
-                    data-wow-delay="0.3s"><img src="../../assets/images/portifolio/2.png" alt="Landing Page" /></a>
+                <a href="https://htlbrasil.com/" target="_blank" data-featherlight="image" class="col-3 wow fadeIn"
+                    data-wow-delay="0.1s"><img src="../../assets/images/portifolio/1.png"
+                        alt="HTL" /></a>
+                <a href="https://www.recompensa.app.br/" target="_blank" data-featherlight="image" class="col-3 wow fadeIn"
+                    data-wow-delay="0.3s"><img src="../../assets/images/portifolio/2.png" alt="Recompensa" /></a>
                 <a href="../../assets/images/portifolio/3.png" data-featherlight="image" class="col-3 wow fadeIn off"
                     onclick="return false;" data-wow-delay="0.5s"><img src="../../assets/images/portifolio/3.png"
                         alt="Landing Page" /></a>
-                <a href="../../assets/images/portifolio/4.png" data-featherlight="image" class="col-3 wow fadeIn"
-                    data-wow-delay="1.1s"><img src="../../assets/images/portifolio/4.png" alt="Landing Page" /></a>
-                <a href="../../assets/images/portifolio/5.png" data-featherlight="image" class="col-3 wow fadeIn"
-                    data-wow-delay="0.9s"><img src="../../assets/images/portifolio/5.png" alt="Landing Page" /></a>
-                <a href="../../assets/images/portifolio/6.png" data-featherlight="image" class="col-3 wow fadeIn off"
+                <a href="https://www.scarpit.tech/" data-featherlight="image" class="col-3 wow fadeIn"
+                    data-wow-delay="1.1s" target="_blank"><img src="../../assets/images/portifolio/4.png" alt="Scarp It" /></a>
+                <a href="https://hi-u3da.web.app/" target="_blank" data-featherlight="image" class="col-3 wow fadeIn"
+                    data-wow-delay="0.9s"><img src="../../assets/images/portifolio/5.png" alt="U3DA" /></a>
+                <a href="../../assets/images/portifolio/6.png" target="_blank" data-featherlight="image" class="col-3 wow fadeIn off"
                     onclick="return false;" data-wow-delay="0.7s"><img src="../../assets/images/portifolio/6.png"
                         alt="Landing Page" /></a>
 
@@ -241,7 +251,7 @@
 
 
             <!--Content Section-->
-            <div id="services" class="scrollto clearfix">
+            <div id="us" class="scrollto clearfix">
 
                 <div class="row no-padding-bottom clearfix">
 
@@ -301,7 +311,7 @@
             <!--End of Content Section-->
 
             <!--Testimonials-->
-            <aside id="testimonials" class="scrollto text-center" data-enllax-ratio=".2">
+            <!-- <aside id="feedback" class="scrollto text-center" data-enllax-ratio=".2">
 
                 <div class="row clearfix">
 
@@ -310,7 +320,6 @@
                         <h2 class="section-title">What our customers are saying</h2>
                     </div>
 
-                    <!--User Testimonial-->
                     <blockquote class="col-3 testimonial classic">
                         <img src="../../assets/images/user-images/user-1.jpg" alt="User" />
                         <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -318,9 +327,7 @@
                             et dolore magna aliqua</q>
                         <footer>John Doe - Happy Customer</footer>
                     </blockquote>
-                    <!-- End of Testimonial-->
 
-                    <!--User Testimonial-->
                     <blockquote class="col-3 testimonial classic">
                         <img src="../../assets/images/user-images/user-2.jpg" alt="User" />
                         <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -328,9 +335,7 @@
                             et dolore magna aliqua</q>
                         <footer>Roslyn Doe - Happy Customer</footer>
                     </blockquote>
-                    <!-- End of Testimonial-->
 
-                    <!--User Testimonial-->
                     <blockquote class="col-3 testimonial classic">
                         <img src="../../assets/images/user-images/user-3.jpg" alt="User" />
                         <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -338,12 +343,15 @@
                             et dolore magna aliqua</q>
                         <footer>Thomas Doe - Happy Customer</footer>
                     </blockquote>
-                    <!-- End of Testimonial-->
 
                 </div>
 
-            </aside>
+            </aside> -->
             <!--End of Testimonials-->
+            
+            <!--Contato-->
+            
+            <!--End of Contato-->
 
         </main>
         <!--End Main Content Area-->
@@ -351,39 +359,64 @@
 
         <!--Footer-->
         <footer id="landing-footer" class="clearfix">
-            <div class="row clearfix">
+            <div class="row clearfix" style="padding: 5% 0;">
+                <aside id="contact" class="scrollto text-center" data-enllax-ratio=".2">
 
-                <p id="copyright" class="col-2">Made with love by <a href="https://www.shapingrain.com">ShapingRain</a>
-                </p>
+                    <div class="clearfix">
+
+                        <div class="col-3 section-heading">
+                            <!-- <h2 class="section-title" style="padding: 0; color: #d9d9d9;">Fale conosco</h2> -->
+                        </div>
+                        <div class="col-3 section-heading"></div>
+                        <div class="col-3 section-heading">
+                            <h3>Fale Conosco</h3>
+                            <ul class="social-icons">
+                                <li>
+                                    <a target="_blank" title="whats-app" href="http://www.behance.net">
+                                        <i class="fa fa-whatsapp fa-1x"></i><span>WhatsApp</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" title="email" href="http://www.behance.net">
+                                        <i class="fa fa-envelope fa-1x"></i><span>Email</span>
+                                    </a>
+                                </li>
+                                <!-- <li>
+                                    <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
+                                        <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" title="Google+" href="http://google.com/+username">
+                                        <i class="fa fa-google-plus fa-1x"></i><span>Google+</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" title="Twitter" href="http://www.twitter.com/username">
+                                        <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" title="Instagram" href="http://www.instagram.com/username">
+                                        <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" title="behance" href="http://www.behance.net">
+                                        <i class="fa fa-behance fa-1x"></i><span>Behance</span>
+                                    </a>
+                                </li> -->
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </aside>
+
+                <!-- <p id="copyright" class="col-2">Made with love by <a href="https://www.shapingrain.com">ShapingRain</a>
+                </p> -->
 
                 <!--Social Icons in Footer-->
-                <ul class="col-2 social-icons">
-                    <li>
-                        <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
-                            <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" title="Google+" href="http://google.com/+username">
-                            <i class="fa fa-google-plus fa-1x"></i><span>Google+</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" title="Twitter" href="http://www.twitter.com/username">
-                            <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" title="Instagram" href="http://www.instagram.com/username">
-                            <i class="fa fa-instagram fa-1x"></i><span>Instagram</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" title="behance" href="http://www.behance.net">
-                            <i class="fa fa-behance fa-1x"></i><span>Behance</span>
-                        </a>
-                    </li>
-                </ul>
                 <!--End of Social Icons in Footer-->
             </div>
         </footer>
@@ -425,7 +458,7 @@ onMounted(async () => {
     background-color: rgba($color: style.$white, $alpha: .5);
 }
 
-#services {
+#us {
 
     #mona-lisa {
         width: 100%;

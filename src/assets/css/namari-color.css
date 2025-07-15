@@ -90,7 +90,7 @@ a:hover, #header.nav-solid nav a:hover {
 }
 
 .section-heading h2:after {
-    background:#60646950;
+    background:#517165bd;
     content:"";
     display:block;
     width:30px;
@@ -99,7 +99,7 @@ a:hover, #header.nav-solid nav a:hover {
 }
 
 .text-center .section-heading h2:after {
-    margin:30px auto 25px auto;
+    margin:0 auto 0 auto;
 }
 
 /* Primary Icon Colors */

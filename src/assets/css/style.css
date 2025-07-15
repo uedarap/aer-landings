@@ -1537,7 +1537,9 @@ blockquote {
 /*------------------------------------------------------------------------------------------*/
 
 #landing-footer {
+    margin-top: 10vh;
     clear: both;
+    background: #517165;
 }
 
 #landing-footer .row {
@@ -1551,6 +1553,8 @@ blockquote {
 #landing-footer ul {
     list-style: none;
     text-align: right;
+    display: flex;
+    justify-content: start;
 }
 
 #landing-footer li {
