@@ -1555,10 +1555,16 @@ blockquote {
     text-align: right;
     display: flex;
     justify-content: start;
+    gap: 50px;
 }
 
 #landing-footer li {
     display: inline-block;
+    justify-content: center;
+}
+
+#landing-footer ul a{
+    width: 100%;
 }
 
 /* Scroll Up */
@@ -2283,7 +2289,7 @@ blockquote {
 
     #header aside ul {
         margin-top: 0 !important;
-        padding-top: 6px;
+        /* padding-top: 6px; */
     }
 
     #banner-content.row {

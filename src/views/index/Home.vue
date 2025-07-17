@@ -42,7 +42,7 @@
                         <aside>
 
                             <!--Social Icons in Header-->
-                            <ul class="social-icons">
+                            <ul class="social-icons" style="display: flex; margin-right: 50px; gap: 10px;">
                                 <!-- <li>
                                     <a target="_blank" title="Facebook" href="https://www.facebook.com/username">
                                         <i class="fa fa-facebook fa-1x"></i><span>Facebook</span>
@@ -69,13 +69,13 @@
                                     </a>
                                 </li> -->
                                 <li>
-                                    <a target="_blank" title="whats-app" href="http://www.behance.net">
-                                        <i class="fa fa-whatsapp fa-1x"></i><span>WhatsApp</span>
+                                    <a target="_blank" title="whats-app" href="https://api.whatsapp.com/send?phone=5513991904076&text=E%20ai%20Rapha%2C%20como%20podemos%20melhorar%20a%20imagem%20digital%20do%20meu%20neg%C3%B3cio.%20%E2%AD%90%EF%B8%8F%20%F0%9F%9A%80">
+                                        <i class="fa fa-whatsapp fa-2x"></i><span>WhatsApp</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a target="_blank" title="email" href="http://www.behance.net">
-                                        <i class="fa fa-envelope fa-1x"></i><span>Email</span>
+                                    <a target="_blank" title="email" href="mailto:uedarap@gmail.com.br">
+                                        <i class="fa fa-envelope fa-2x"></i><span>Email</span>
                                     </a>
                                 </li>
                             </ul>
@@ -98,9 +98,9 @@
                                 <li>
                                     <a href="#us">Nós</a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="#feedback">Feedbacks</a>
-                                </li>
+                                </li> -->
                                 <!-- <li>
                                     <a href="#clients">Clients</a>
                                 </li>
@@ -129,7 +129,7 @@
                     </div>
 
                     <!--Call to Action-->
-                    <a href="#" class="button" style="text-transform: uppercase;">☕️ Vamos tomar um café?</a>
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=5513991904076&text=E%20ai%20Rapha%2C%20como%20podemos%20melhorar%20a%20imagem%20digital%20do%20meu%20neg%C3%B3cio.%20%E2%AD%90%EF%B8%8F%20%F0%9F%9A%80" class="button" style="text-transform: uppercase;">☕️ Vamos tomar um café?</a>
                     <!--End Call to Action-->
 
                 </div>
@@ -206,9 +206,10 @@
 
                         <!--Icon Block-->
                         <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
-                            <!-- <div class="icon">
-                                <i class="fa fa-rocket fa-2x"></i>
-                            </div> -->
+                            <div class="icon">
+                                <!-- <i class="fa fa-rocket fa-2x"></i> -->
+                                 <h2 style="color: #C7C7C6; padding: 0;">3</h2>
+                            </div>
                             <div class="icon-block-description">
                                 <h4>O Trio perfeito</h4>
                                 <p>Com isso, conseguimos deixar seu negócio prontos pra receber os clientes conectados.
@@ -292,7 +293,7 @@
                     <div class="col-sm-3 col-3">
                         <img id="mona-lisa" src="../../assets/images/mona_lisa.jpg" alt="Dancer" />
                         <div style="display: flex; justify-content: space-between;">
-                            <a href="https://wa.me/+5513991904076" data-videoid="UYJ5IjBRlW8" data-videosite="youtube"
+                            <a target="_blank" href="https://api.whatsapp.com/send?phone=5513991904076&text=E%20ai%20Rapha%2C%20como%20podemos%20melhorar%20a%20imagem%20digital%20do%20meu%20neg%C3%B3cio.%20%E2%AD%90%EF%B8%8F%20%F0%9F%9A%80" data-videoid="UYJ5IjBRlW8" data-videosite="youtube"
                                 class="button video link-lightbox">
                                 Falar Conosco
                                 <!-- <i class="fa fa-play" aria-hidden="true"></i> -->
@@ -359,26 +360,25 @@
 
         <!--Footer-->
         <footer id="landing-footer" class="clearfix">
-            <div class="row clearfix" style="padding: 5% 0;">
+            <div class="row clearfix" style="padding: 3% 0;">
                 <aside id="contact" class="scrollto text-center" data-enllax-ratio=".2">
 
-                    <div class="clearfix">
+                    <div class="clearfix" style="display: flex;">
 
-                        <div class="col-3 section-heading">
-                            <!-- <h2 class="section-title" style="padding: 0; color: #d9d9d9;">Fale conosco</h2> -->
+                        <div style="flex: 1; padding: 0 50px; display: flex; justify-content: start;">
+                            <img src="../../assets/images/logo.png" id="banner-logo" alt="Landing Page" style="width: 50%; object-fit: contain; filter: brightness(0) saturate(100%) invert(93%) sepia(4%) saturate(436%) hue-rotate(319deg) brightness(103%) contrast(99%);"/>
                         </div>
-                        <div class="col-3 section-heading"></div>
-                        <div class="col-3 section-heading">
-                            <h3>Fale Conosco</h3>
-                            <ul class="social-icons">
+                        <div style="flex: 2; display: flex; flex-direction: column; justify-content: space-between; align-items: center;">
+                            <h3 style="color: #EAE4D7;">Fale Conosco</h3>
+                            <ul class="social-icons" style="justify-content: center; margin-bottom: 20px;">
                                 <li>
-                                    <a target="_blank" title="whats-app" href="http://www.behance.net">
-                                        <i class="fa fa-whatsapp fa-1x"></i><span>WhatsApp</span>
+                                    <a target="_blank" title="whats-app" href="https://api.whatsapp.com/send?phone=5513991904076&text=E%20ai%20Rapha%2C%20como%20podemos%20melhorar%20a%20imagem%20digital%20do%20meu%20neg%C3%B3cio.%20%E2%AD%90%EF%B8%8F%20%F0%9F%9A%80">
+                                        <i class="fa fa-whatsapp fa-4x"></i><span>WhatsApp</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a target="_blank" title="email" href="http://www.behance.net">
-                                        <i class="fa fa-envelope fa-1x"></i><span>Email</span>
+                                    <a target="_blank" title="email" href="mailto:uedarap@gmail.com.br">
+                                        <i class="fa fa-envelope fa-4x"></i><span>Email</span>
                                     </a>
                                 </li>
                                 <!-- <li>
@@ -407,6 +407,9 @@
                                     </a>
                                 </li> -->
                             </ul>
+                        </div>
+                        <div id="cat" style="flex: 1; display: flex; justify-content: end; height: 100px; padding: 0px 50px;">
+                            <img src="../../assets/images/odin_w.png" alt="" style="width: 130px; position: absolute; top: 30px; opacity: 1;">
                         </div>
 
                     </div>
@@ -454,6 +457,10 @@ onMounted(async () => {
 <style lang="scss">
 @use '../../style.scss';
 
+html{
+    background: #F7F4F1;
+}
+
 #wrapper {
     background-color: rgba($color: style.$white, $alpha: .5);
 }
@@ -469,9 +476,11 @@ onMounted(async () => {
 
     @media screen and (max-width: 768px) {
         #mona-lisa {
-            width: 100%;
-            height: auto;
-            mask-image: none;
+            position: absolute;
+            width: 50%;
+            -webkit-mask-image: -webkit-gradient(linear, right top, right bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
+            mask-image: linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .3), rgba(0, 0, 0, 0));
+            bottom: 200px;
         }
 
     }
