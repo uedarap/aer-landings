@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "aer-landing",
     "public": "dist",
     "ignore": [
       "firebase.json",
