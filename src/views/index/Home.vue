@@ -74,7 +74,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a target="_blank" title="email" href="mailto:uedarap@gmail.com.br">
+                                    <a target="_blank" title="email" href="mailto:aer-landings@gmail.com">
                                         <i class="fa fa-envelope fa-2x"></i><span>Email</span>
                                     </a>
                                 </li>
@@ -360,12 +360,12 @@
 
         <!--Footer-->
         <footer id="landing-footer" class="clearfix">
-            <div class="row clearfix" style="padding: 3% 0;">
+            <div class="row clearfix" style="padding: 3% 0; overflow: hidden;">
                 <aside id="contact" class="scrollto text-center" data-enllax-ratio=".2">
 
                     <div class="clearfix" style="display: flex;">
 
-                        <div style="flex: 1; padding: 0 50px; display: flex; justify-content: start;">
+                        <div class="footer-logo">
                             <img src="../../assets/images/logo.png" id="banner-logo" alt="Landing Page" style="width: 50%; object-fit: contain; filter: brightness(0) saturate(100%) invert(93%) sepia(4%) saturate(436%) hue-rotate(319deg) brightness(103%) contrast(99%);"/>
                         </div>
                         <div style="flex: 2; display: flex; flex-direction: column; justify-content: space-between; align-items: center;">
@@ -377,7 +377,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a target="_blank" title="email" href="mailto:uedarap@gmail.com.br">
+                                    <a target="_blank" title="email" href="mailto:aer.landings@gmail.com">
                                         <i class="fa fa-envelope fa-4x"></i><span>Email</span>
                                     </a>
                                 </li>
@@ -408,8 +408,8 @@
                                 </li> -->
                             </ul>
                         </div>
-                        <div id="cat" style="flex: 1; display: flex; justify-content: end; height: 100px; padding: 0px 50px;">
-                            <img src="../../assets/images/odin_w.png" alt="" style="width: 130px; position: absolute; top: 30px; opacity: 1;">
+                        <div id="cat">
+                            <img src="../../assets/images/odin_w.png" alt="">
                         </div>
 
                     </div>
@@ -483,6 +483,54 @@ html{
             bottom: 200px;
         }
 
+    }
+
+    @media screen and (max-width: 485px) {
+        #mona-lisa {
+            display: none;
+        }
+    }
+}
+
+#landing-footer{
+    .footer-logo {
+        flex: 1;
+        display: flex;
+        justify-content: start;
+        padding: 0 0 0 50px;
+    }
+
+    #cat{
+        flex: 1; 
+        display: flex; 
+        justify-content: end; 
+        height: 100px; 
+        padding: 0px 50px;
+
+        img{
+            width: 130px; 
+            position: absolute; 
+            top: 30px; 
+            opacity: 1;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .footer-logo {
+            display: none;
+        }
+
+        #cat{
+            position: absolute;
+            height: 30px;
+            right: -5%;
+
+            img{
+                width: 50%;
+                opacity: .4;
+            }
+        }
+        
     }
 }
 </style>

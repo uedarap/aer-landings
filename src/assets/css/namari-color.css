@@ -128,6 +128,18 @@ a:hover, #header.nav-solid nav a:hover {
     background-size:cover;
 }
 
+@media screen and (max-width: 768px) {
+    #banner::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: url("../images/banner-images/bg-full.png") no-repeat center top;
+        background-size: cover;
+        opacity: 0.5;
+        z-index: 0;
+    }
+}
+
 
 /*------------------------------------------------------------------------------------------*/
 /* 5. Typography */
@@ -164,7 +176,7 @@ body {
 
 #banner h1 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size:62px;
+    font-size:2.5rem;
     line-height:60px;
     font-weight:800;
     color:#517165;
@@ -320,6 +332,7 @@ h6 {
     font-size:12px;
     font-weight:normal;
     color:#999;
+    position: relative;
 }
 
 /* Footer Icon Color */
